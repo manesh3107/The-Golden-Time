@@ -1,0 +1,571 @@
+body{
+
+    overflow-x: hidden;
+    background-color: black;
+  }
+  
+  
+  .NavLogo {
+      padding-left: 10px;
+  }
+  
+  #navitem {
+      padding-left: 41%;
+      font-size: larger;
+  }
+  
+  nav{
+  
+    height: 100px;
+    background-color: black;
+  }
+  
+  .b{
+    background-color: rgba(72, 69, 69, 0.983);
+  }
+  
+  #navtxt{
+  
+    color: whitesmoke;
+  }
+  
+  #btn{
+  
+    background-color: rgb(160, 125, 36);
+  }
+  
+  #btn:hover{
+  
+    box-shadow: 0 2px 10px 0 whitesmoke;
+  }
+  
+  #login{
+  
+    text-decoration: none;
+    color: black;
+  }
+  
+  #login:hover{
+  
+    color: black;
+    text-decoration: none;
+  }
+    
+    /* ----------------------------------------------------------------------------------- */
+  
+    .wm{
+      background-color: black;
+    }
+  
+    .sell{
+      /* margin-top: 50px; */
+      text-align: center;
+      color: whitesmoke;
+      font-family:Arial, Helvetica, sans-serif ;
+      font-weight: 150;
+      font-size: 60px;
+      background-color: black;
+    }
+  
+    /* ---------------------------------------------card2---------------------------------------------- */
+  
+    .con1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin: 30px; */
+      background-color: black;
+    }
+    
+    .card {
+      margin: 2%;
+      background: #DBBDBD;
+      width: 350px;
+      height: 410px!important;
+      box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      transition: .2s all;
+      cursor: pointer;
+      align-items: center;
+      text-align: center;
+      font-size: 13px;
+      padding-top: 30px;
+    }
+    
+    .card > span {
+      display: block;
+      margin: auto;
+      max-width: 40px;
+    }
+    
+    .con1:hover .card {
+      filter: blur(3px);
+      opacity: .5;
+      transform: scale(.98);
+      box-shadow: none;
+    }
+    
+    .con1:hover .card:hover {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+      box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+      background: white;
+      color: white;
+      transition-duration:1s ;
+      transform:scale(1.3);
+  
+    }
+  
+    .card-img-top{
+  
+      width: 350px;
+      height: 400px;
+      border-radius: 50%;
+    }
+  /* ---------------------------------------------------------------------------------------------------------- */
+  
+  
+  
+  #wom{
+  
+    margin-top: 50px;
+  }
+  
+  .data{
+  
+    padding-top: 10%;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .data1{
+  
+    margin-left: 5%;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .button{
+  
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 12px 12px;
+    text-decoration: none;margin-top: 20px;
+  }
+  
+  .button:hover{
+  
+    box-shadow: 0 2px 12px 0 rgb(209, 224, 240);
+  
+  }
+  
+  .button>a{
+  
+    text-decoration: none;
+    color: black;
+  }
+  
+  .button>a:hover{
+  
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  .type{
+  
+    margin-left: 70px;
+  }
+  
+  .bgcimg{
+  
+    height: 500px;
+    width: 600px;
+  }
+  .over-img {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+  }
+  
+  
+  
+  
+  .type{
+  
+    background: url("women-watches.avif");
+    height: 500px;
+    width: 650px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .butt{
+  
+    background: transparent;
+    border-radius: 15px;
+  }
+  
+  .butt>#bcg{
+  
+    text-decoration: none;
+    color: black;
+    
+  }
+  .butt:hover{
+  
+    background-color: white;
+  }
+  .butt>#bcg:hover{
+  
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  
+  
+  /* ---------------------review----------------------------------------------------- */
+  
+  
+  .review{
+  
+    background-color: black;
+  }
+  
+  .rew{
+  
+   padding: 30px 0px 30px 30px;
+  }
+  #card1 {
+      width: 230px;
+      height: 300px;
+      background-color: black;
+      border: 2px solid goldenrod;
+      box-shadow: 0px 0px 10px rgba(245, 240, 240, 0.6);
+    }
+    
+    .i2 {
+      height: 160px;
+      width: 170px!important;
+      /* object-fit: cover; */
+      /* border-radius: 10%; */
+  
+    }
+    
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .card-text {
+      font-size: 1rem;
+      /* margin-bottom: 1rem; */
+    }
+    
+    .rating {
+      display: flex;
+      align-items: center;
+    }
+    
+    .stars {
+      font-size: 1.25rem;
+      color: #f0ca45;
+      /* margin-right: 1rem; */
+      /* align-items: center; */
+      padding-left: 60px;
+  
+    }
+    
+    .score {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  
+    #card1:hover{
+  
+      box-shadow: 0 4px 18px 0 whitesmoke;
+    }
+  
+    .bac {
+      background-color: black !important;
+    }
+    
+  
+  
+  
+    /* -----------------------------------------best----------------------------------- */
+  
+  
+    .heading{
+  
+      text-align: center;
+      color: whitesmoke;
+      font-family:Arial, Helvetica, sans-serif ;
+      font-weight: 120;
+      padding-top: 25px;
+    }
+  
+  
+    .about{
+      background:black;
+  }
+  
+  .about .row{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 3rem;
+  }
+  
+  .about .row .image{
+      flex:1 1 45rem;
+      text-align: center;
+  }
+  
+  .about .row .image img{
+      width:85%;
+      border-radius: .5rem;
+  }
+  
+  .about .row .content{
+      flex:1 1 45rem;
+      padding: 2.5rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .about .row .content h3{
+      font-size: 3.5rem;
+      color:#fff;
+  }
+  
+  .about .row .content p{
+      font-size: 1.8rem;
+      color:#eee;
+      padding:1rem 0;
+  }
+  
+  .about .row .content p i{
+      padding-right: .5rem;
+      color:#637CBB;
+  }
+  
+  
+    /* ----------------------------------------------------------------------------------------------------- */
+  
+  
+    /* body{
+      overflow-x: hidden;
+    } */
+  .link{
+  
+    text-decoration: none;
+    color: lightsteelblue;
+  }
+  
+  .link:hover{
+  
+    text-decoration: none;
+    color: antiquewhite;
+  }
+  
+  #colu{
+  
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  p{
+  
+    font-weight: 400;
+    color: azure;
+  }
+  
+  .fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  }
+  
+  .copyright{
+  font-weight: 300;
+  font-size: 14px;
+  }
+  
+  .fMenuTitle {
+  font-size: 16px;
+  color: white;
+  }
+  
+  .logo{
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  }
+  
+  
+  /* ----------------------------------------------------------------------------------- */
+  
+  .foot{
+  
+    background-color: black;
+    margin-top: 50px;
+  }
+  
+  .features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    border-bottom: grey 1px solid;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .img1{
+    border-radius: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  
+  .img2{
+    border-radius: 30px;
+    margin-right: 20px;
+  
+  }
+  .about {
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+  
+  .featureIcon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .featureTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color: white;
+  }
+  
+  .featureDesc {
+    color: rgba(245, 245, 245, 0.757);
+    width: 50%;
+    height: 100px;
+  }
+  
+  
+  #head{
+  
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  }
+  
+  
+  /* ------------------------------------------------------------------------------------------- */
+  
+  .d1 {
+  
+    background-color: rgba(13, 11, 11, 0.951);
+  }
+  
+  .keep {
+  
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+  }
+  
+  .c1 {
+  
+    padding-left: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  .backg1{
+    background-color: rgba(13, 11, 11, 0.951);
+  }
+  button {
+    margin: 1rem;
+  }
+  
+  .btn {
+    background-color:#2D3033;
+    color: whitesmoke;
+    padding: .5em 1em;
+    border: 2px solid goldenrod;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0;
+    margin: 20px 0 20px 100px;
+  
+    --background-color: #E3E3E3;
+    --border-size: 2px;
+    --accent-color: #0AF;
+  
+  }
+  
+  .btn.btn-background-slide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: goldenrod;
+    color: black;
+  
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  
+  .btn.btn-background-slide:hover::before,
+  .btn.btn-background-slide:focus::before {
+    transform: scaleX(1);
+  }
+  
+  .btn.btn-background-slide {
+    transition: color 300ms ease-in-out;
+    z-index: 1;
+  }
+  
+  
+  .btn.btn-background-slide:hover,
+  .btn.btn-background-slide:focus {
+    color: white;
+  }
